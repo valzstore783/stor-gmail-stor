@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VALZ STORE</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #101827;
+      color: white;
+    }
+    header {
+      padding: 25px;
+      background: #17243a;
+      text-align: center;
+    }
+    main {
+      max-width: 500px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    .card {
+      background: #1d2b42;
+      padding: 22px;
+      border-radius: 12px;
+    }
+    input, select, button {
+      width: 100%;
+      padding: 13px;
+      margin-top: 12px;
+      box-sizing: border-box;
+      border-radius: 7px;
+      border: none;
+    }
+    button {
+      background: #2479ed;
+      color: white;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>VALZ STORE</h1>
+    <p>Gmail Service & Digital Freelance</p>
+  </header>
+  <main>
+    <div class="card">
+      <h2>Pesan Layanan</h2>
+      <form onsubmit="event.preventDefault(); alert('Website sedang dalam tahap pengembangan.');">
+        <input placeholder="Nama pelanggan" required>
+        <input type="email" placeholder="Email kontak" required>
+        <select required>
+          <option value="">Pilih layanan</option>
+          <option>Bantuan konfigurasi Gmail</option>
+          <option>Pengelolaan email bisnis</option>
+        </select>
+        <button type="submit">Buat Pesanan</button>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
